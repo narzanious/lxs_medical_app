@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif+Caption&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
+
+
+html, body {
+  width: auto !important;
+  /*overflow-x: hidden !important;*/
+  background-color: #e7b3ff;
+}
+
+p, h1, h2, h3, h4, h5 {
+  font-family: 'PT Serif Caption', serif;
+}
+
+/*--Navbar--*/
+.navbar .navbar-default {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0em;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: black;
+    font-family: 'Comfortaa', serif;
+    text-shadow: 1px lightgrey;
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-text {
+    color: black;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.navbar-text {
+  text-decoration: none;
+  color: black;
+}
+
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #2d862d;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-weight: lighter;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #2d862d;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #2d862d;
+    font-weight: lighter;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: lightgreen;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: grey;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: black;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: black;
+        border-color: #ffb3ff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+    .row .col-xs-12 > a > img {
+      padding-top: 7%;
+    }
+}
+@media (max-width: 400px) {
+    .container h3 {
+        font-size: 1.2em;
+    }
+    .tab-pane h4 {
+        font-size: 1em;
+    }
+}
+
+/*--Navbar end--*/
+
+
+/* Carousel base class */
+.carousel {
+  background-color: #262626;
+  height: 30%;
+  min-width: 100%; /* Added width manually by V_ */
+  margin-bottom: 0px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+  height: 30%;
+  background-color: transparent;
+}
+
+.carousel-inner {
+
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.slide-content {
+  color: white;
+  margin-top: 7%;
+}
+
+.slide-content p {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.slide-content a {
+  margin-top: 3%;
+}
+.slide-wrapper {
+  margin-top: 2%;
+}
+
+/*buttons by field*/
+.row > {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.btn-group > button  {
+  margin: 0.5%;
+  border-radius: 0px;
+}
+
+.btn-group > button > a {
+  text-decoration: none;
+}
+
+.btn-group > button > a > h3 {
+  color: white;
+}
+
+.btn-group > button > a > h3:hover, 
+.btn-group > button > a > h3:focus {
+  text-decoration: none;
+}
+
+
+
+/*Adress info*/
+.adress {
+  background-color:#ff6600;
+  color:white;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+/*Footer*/
+.navbar-default{
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border: 0px;
+  background-color: #262626;
+}
+.navbar-text  a  i {
+  color: white;
+}
+
+.navbar-text  p {
+  color: white;
+}
+
+
+
+/*Text on top*/
+
+
+
+.row .col-md-4 .text-center {
+  position: absolute;
+  color: white;
+  text-shadow: 2px 1px grey;
+  font-size: 24px;
+  font-weight: bold;
+  left: 0;
+  right: 0;
+  bottom: 40%;
+}
+
+.poster {
+  padding-bottom: 3%;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+/*Mobile version*/
+
+.mlink {
+  color: white;
+  text-decoration: none;
+}
+.mlink:focus,
+.mlink:hover {
+  color: white;
+  text-decoration: none;
+}
