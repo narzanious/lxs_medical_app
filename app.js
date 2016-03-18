@@ -21,6 +21,8 @@ app.get('/adress', routes.adress);
 
 app.get('/pricelist', routes.pricelist);
 
+app.get('/appointment', routes.appointment);
+
 app.get('/uslugi/:item_number?', routes.uslugi);
 
 

@@ -1,22 +1,22 @@
 {
   "medic": [{
-    "title" : "Анализы",  
+    "title" : "СТОМАТОЛОГИЯ", 
     "item_number" : "1",
+    "main_characters" : ["Семейная стоматология", "Детская стоматология", "Лечение зубов", "Лечение десен", "Удаление зубов", "Протезирование", "Имплантация", "Гигиена полости рта", "Отбеливание"],
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "poster" : "dantist.jpg"
+  }, 
+
+  {
+    "title" : "АНАЛИЗЫ",   
+    "item_number" : "2",
     "main_characters" : ["Гематологические исследования", "Биохимические исследования", "Горманальные исследования", "Иммунологические исследования", "Гистолологические исследования", "Цитологические исследования"],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "analizy.jpg" 
+    "poster" : "analizy.jpg"
   },
 
   {
-    "title" : "Вакцинация",
-    "item_number" : "2",
-    "main_characters" : ["Прививка от гепатита А", "Корь, краснуха, паротит", "Клещевой энцефалит", "Гепатит В", "Ветряная оспа", "Прививка от гриппа"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "vakcina.jpg"
-  },
-
-  {
-    "title" : "Гинекология",
+    "title" : "ГИНЕКОЛОГИЯ",
     "item_number" : "3",
     "main_characters" : ["Прием врача-акушера-гинеколога", "Узи матки и придатков", "Забор гинекологического мазка"],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -24,7 +24,7 @@
   },
 
   {
-    "title" : "Дерматовенерология",
+    "title" : "ДЕРМАТОЛОГИЯ И ВЕНЕРОЛОГИЯ",
     "item_number" : "4",
     "main_characters" : ["Венерология", "Дерматология"],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -32,7 +32,7 @@
   },
 
   {
-    "title" : "Кардиология",
+    "title" : "КАРДИОЛОГИЯ",
     "item_number" : "5",
     "main_characters" : ["Диагностика и лечение болезней сердца и сосудов"],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -40,106 +40,58 @@
   },
 
   {
-    "title" : "Неврология",
+    "title" : "ТЕРАПЕВТ",
     "item_number" : "6",
-    "main_characters" : ["Головная боль", "Головокружение", "Дискинезия", "Онемение конечностей", "Невралгия троичного нерва", "Неврит", "Невротические растройства", "Радикулит"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "neurology.jpg"
-  },
-
-  {
-    "title" : "Окулист",
-    "item_number" : "7",
-    "main_characters" : ["Диагностика зрения"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "ophtalmo.jpg"
-  },
-
-  {
-    "title" : "Психотерапевт",
-    "item_number" : "8",
-    "main_characters" : ["Бессоница", "Невроз", "Депрессия", "Фобии и страхи", "Синдром хронической усталости", "Психосоматические расстройства"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "psycho.jpg"
-  },
-
-  {
-    "title" : "Стоматология",
-    "item_number" : "9",
-    "main_characters" : ["Семейная стоматология", "Детская стоматология", "Лечение зубов", "Лечение десен", "Удаление зубов", "Протезирование", "Имплантация", "Гигиена полости рта", "Отбеливание"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "dental2.jpg"
-  },  
-
-  {
-    "title" : "Терапевт",
-    "item_number" : "10",
     "main_characters" : ["Лабораторная диагностика", "Компьютерная томография", "Физиотерапевтическое лечение", "Оформление медицинских документов"],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "poster" : "terapeut.jpg"
   },
-  
-  {
-    "title" : "Травматолог",
-    "item_number" : "11",
-    "main_characters" : ["Экстренная помощь", "Постравматическая реабилитация", "Депрессия", "Лечение переломов", "Лечение травм", "Лечение связок"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "trauma.jpg"
-  },
 
   {
-    "title" : "Урология",
-    "item_number" : "12",
+    "title" : "УРОЛОГИЯ",
+    "item_number" : "7",
     "main_characters" : ["Цистит", "Пиелонефрит", "Недержание мочи", "Мочекаменная болезнь", "Хронический простатит", "Уретрит", "Аденома предстательной железы" ],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "poster" : "diagnostika.jpg"
   },
 
   {
-    "title" : "Водителям",
-    "item_number" : "13",
-    "main_characters" : ["Прохождение водительской комиссии"],
+    "title" : "УЗИ",
+    "item_number" : "8",
+    "main_characters" : ["Узи внутренних органов"],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "drive.jpg"
+    "poster" : "ultra.jpg"
   },
 
   {
-    "title" : "Медкнижка",
-    "item_number" : "14",
-    "main_characters" : ["Оформление медицинских книжек"],
+    "title" : "ЭНДОКРИНОЛОГИЯ",
+    "item_number" : "9",
+    "main_characters" : ["Заболевания эндокринной системы"],
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "poster" : "endo.jpg"
+  },
+
+  {
+    "title" : "МЕДИЦИНСКИЕ СПРАВКИ",
+    "item_number" : "10",
+    "main_characters" : ["Оформление медицинских справок"],
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "poster" : "spravki.jpg"
+  },
+
+  {
+    "title" : "МЕДКНИЖКА",
+    "item_number" : "11",
+    "main_characters" : ["Медкомиссия для поступления на госслужбу"],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "poster" : "book.jpg"
   },
 
   {
-    "title" : "Оружие",
-    "item_number" : "15",
-    "main_characters" : ["Выдача справки на владение оружием"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "rifle.jpg"
-  },
-
-  {
-    "title" : "Для госслужащих",
-    "item_number" : "16",
-    "main_characters" : ["Медкомиссия для поступления на госслужбу"],
+    "title" : "ПРОФОСМОТР ДЛЯ ОРГАНИЗАЦИЙ",
+    "item_number" : "12",
+    "main_characters" : ["Для организаций"],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "poster" : "office.jpg"
-  },
-
-  {
-    "title" : "Бассейн",
-    "item_number" : "17",
-    "main_characters" : ["Выдача справки в бассейн"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "pull.jpg"
-  },
-
-  {
-    "title" : "Студентам",
-    "item_number" : "18",
-    "main_characters" : ["Выдача справки для поступления в ВУЗ"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "student.jpg"
   }]
 }

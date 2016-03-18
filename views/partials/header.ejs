@@ -1,41 +1,41 @@
-        <nav class="navbar navbar-default" style="background-color: transparent;">
+        <nav class="navbar navbar-default" style="background-color: #FFF133;">
             <div class="container-fluid container-header">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
+                <div class="masthead" style="padding-top: 1%;">
+                        <a href="/"><h4 class="text-center"><i class="fa fa-heartbeat" style="color: red;"></i> Медицинский диагностический центр</h4></a>
+                        <a href="/"><h4 class="text-center">"ТВЕРСКОЙ ДОКТОР"</h4></a>
 
-                    <a class="navbar-brand hidden-xs" href="/"><i class="fa fa-heartbeat"></i> ГОРОДСКОЙ ДОКТОР</a>
-                    <a class="navbar-brand visible-xs" style="font-size: 1.2em;" href="/"><i class="fa fa-heartbeat"></i> ГОРОДСКОЙ ДОКТОР</a>
-                </div>
-                <div class="hidden-xs">
-                    <p class="navbar-text"><i class="fa fa-phone"></i> (001) 000-00-01</p>
-                    <p class="navbar-text"><i class="fa fa-hospital-o"></i> ул. Мира, 123, город</p>
-                </div>
-                <div class="visible-xs">
-                    <p class="navbar-text text-center"><i class="fa fa-phone"></i> (001) 000-00-01</p>
-                    <p class="navbar-text text-center"><i class="fa fa-hospital-o"></i> ул. Мира, 123, город</p>
-                </div>
-                
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav pull-left">
+                        <div class="row hidden-xs">
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <p class="text-right"><i class="fa fa-phone"></i> +7(496) 219-30-30</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <p class="text-center">Дубна, ул. 9 Мая, д. 7В</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <p class="text-left"><i class="fa fa-phone"></i> +7(925) 001-23-38</p>
+                            </div>
+                        </div>
+
+
+                        <p class="text-center visible-xs">Дубна, ул. 9 Мая, д. 7В</p>
+                        <p class="text-center visible-xs">+7(496) 219-30-30<br>+7(925) 001-23-38</p>
+                    <nav>
+                      <ul class="nav nav-justified">                 
+                        <li><a href="/appointment">ЗАПИСАТЬСЯ НА ПРИЕМ</a></li>
+                        <li><a href="/staff">КЛИНИКА</a></li>
                         <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Медицинские услуги<span class="caret"></span></a>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">МЕДИЦИНСКИЕ УСЛУГИ<span class="caret"></span></a>
                           <ul class="dropdown-menu">
                             <% for (var i = 0; i < medic.length; i++) { %>
                                 <li><a href="/uslugi/<%= i + 1 %>"><%= medic[i].title %></a></li>
                             <% } %>
                           </ul>
-                        </li>                   
-                        <li><a href="/appointment">Записаться на прием</a></li>
-                        <li><a href="/pricelist">Цены</a></li>
-                        <li><a href="/staff">Клиника</a></li>
-                        <li><a href="/adress" class="button">Контакты</a></li> 
-                    </ul>
+                        </li>
+                        <li><a href="/pricelist">ЦЕНЫ</a></li>
+                        <li class="hidden-lg hidden-md hidden-sm"><a href="/special">СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</a></li>
+                        <li><a href="/adress" class="button">КОНТАКТЫ</a></li> 
+                      </ul>
+                    </nav>
                 </div>
             </div>
         </nav>

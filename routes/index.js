@@ -37,6 +37,18 @@ exports.adress = function(req, res) {
   });
 };
 
+// appointment
+
+exports.appointment = function(req, res) {  
+
+  var medic = medicJSON.medic;
+  
+  res.render('appointment', {
+    title : "Записаться на прием",
+    medic : medic 
+  });
+};
+
 // pricelist
 
 exports.pricelist = function(req, res) {  
@@ -76,7 +88,7 @@ exports.uslugi = function(req, res) {
 } else {
   res.render('notFound', {
     medic : medic,
-    title : "Страница не найдена. Перейдите на главную страницу"  
+    title : "Cтраница не найдена. Перейдите на главную страницу"  
   });
 }
 
