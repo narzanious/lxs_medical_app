@@ -64,34 +64,10 @@
   },
 
   {
-    "title" : "ЭНДОКРИНОЛОГИЯ",
+    "title" : "СПРАВКИ, МЕДКНИЖКИ, ПРОФОСМОТР",
     "item_number" : "9",
     "main_characters" : ["Заболевания эндокринной системы"],
     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "endo.jpg"
-  },
-
-  {
-    "title" : "МЕДИЦИНСКИЕ СПРАВКИ",
-    "item_number" : "10",
-    "main_characters" : ["Оформление медицинских справок"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "poster" : "spravki.jpg"
-  },
-
-  {
-    "title" : "МЕДКНИЖКА",
-    "item_number" : "11",
-    "main_characters" : ["Медкомиссия для поступления на госслужбу"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "book.jpg"
-  },
-
-  {
-    "title" : "ПРОФОСМОТР ДЛЯ ОРГАНИЗАЦИЙ",
-    "item_number" : "12",
-    "main_characters" : ["Для организаций"],
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "poster" : "office.jpg"
   }]
 }

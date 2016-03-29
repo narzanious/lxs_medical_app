@@ -6,12 +6,12 @@
   </head>  
   <body>
     <% include partials/header.ejs %>
-    <div class="container mobile_services" style="padding-bottom: 5%;">
+    <div class="container" style="padding-bottom: 5%;">
       <div class="container">
-        <h3 class="text-center"><%= title %></h3> 
+        <h3 class="text-center heading-services" style="padding-top: 3%; padding-bottom: 3%;"><%= title %></h3>
       </div>
 
-      <div class="container poster" style="padding-bottom: 10%">
+      <div class="container poster" style="padding-top: 3%; padding-bottom: 10%">
         <div class="row">
           <div class="col-lg-4 hidden-xs hidden-sm">
             <img src="/images/<%= medie.poster %>" class="img-responsive">
@@ -19,10 +19,10 @@
           <div class="col-sm-5 col-lg-4 visible-xs visible-sm" style="padding-bottom: 5%">
             <img src="/images/<%= medie.poster %>" class="img-responsive">
           </div>
-          <div class="col-sm-7 col-lg-5">
+          <div class="col-sm-7 col-lg-5 description">
             <p><%= medie.description %></p>
           </div>
-          <div class="col-sm-12 col-lg-3" style="padding-right: 2%">
+          <div class="col-sm-12 col-lg-3 characters" style="padding-right: 2%">
             <ul>
               <% for (var i = 0; i < main_characters.length; i++) { %>
                 <li><%= main_characters[i] %></li>

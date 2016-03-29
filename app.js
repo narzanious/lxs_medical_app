@@ -19,6 +19,8 @@ app.get('/staff', routes.staff);
 
 app.get('/adress', routes.adress);
 
+app.get('/thank_you', routes.thank_you);
+
 app.get('/pricelist', routes.pricelist);
 
 app.get('/appointment', routes.appointment);

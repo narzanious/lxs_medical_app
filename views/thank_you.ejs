@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/head.ejs %>
+    
+  </head> 
+  <body>
+    <% include partials/header.ejs %>
+    <div class="container hidden-xs">
+        <div class="text-center">
+            <h3>Благодарим вас за выбор нашей клиники. Наш специалист свяжется с вами в ближайшее время по указанному в заявке телефону</h3>
+        </div>
+    </div>
+    <div class="container visible-xs">
+        <div class="text-center" style="padding-top: 5%; padding-bottom: 5%;">
+            <h3>Благодарим вас за выбор нашей клиники. Наш специалист свяжется с вами в ближайшее время по указанному в заявке телефону</h3>
+        </div>
+    </div>
+    <div class="navbar-fixed-bottom hidden-xs">
+        <% include partials/footer.ejs %>
+    </div>
+    <div class="visible-xs">
+        <% include partials/footer.ejs %>
+    </div>
+    <% include partials/scripts.ejs %>
+  </body>
+</html>

@@ -8,7 +8,7 @@ exports.home = function(req, res) {
   var medic = medicJSON.medic;
   
   res.render('home', {
-    title : "Городской доктор",
+    title : "Тверской доктор",
     medic : medic 
   });
 };
@@ -103,5 +103,17 @@ exports.notFound = function(req, res) {
   res.render('notFound', {
     medic : medic,
     title : "Страница не найдена. Перейдите на главную страницу"  
+  });
+};
+
+
+// thank_you
+exports.thank_you = function(req, res) {
+
+  var medic = medicJSON.medic;
+
+  res.render('thank_you', {
+    medic : medic,
+    title : "Тверской доктор"  
   });
 };
