@@ -363,7 +363,7 @@ h3 {
   } */
 
 .navbar-default .masthead .dropdown-menu {
-  background-color: #364763;
+  background-color: #364763; 
   color: white;
   }
 .navbar-default .masthead .dropdown-menu li a {
@@ -396,7 +396,7 @@ h3 {
   width: 100%;
   }
 .slide-content > small {
-  color: white;
+  color: #364763;
 }
 }
 /*--tablet version ends--*/
