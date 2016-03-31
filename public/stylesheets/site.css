@@ -8,8 +8,8 @@ html {
 html, body {
   width: auto !important;
   /*overflow-x: hidden !important;*/
-  /*background-color: #FFFAAE;*/
-  background-color: #BFCADA;
+  /*background-color: #BFCADA;*/
+  background-color: white;
 }
 body {
   /* Margin bottom by footer height */
