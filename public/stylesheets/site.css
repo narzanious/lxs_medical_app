@@ -254,7 +254,9 @@ body {
 /*Price tabs ends*/
 
 
-
+form .well .form-horizontal {
+  background-color: #364763;
+}
 
 /*Home page main links */
 
